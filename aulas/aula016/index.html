@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h1{
+            color: white;
+            background-color: rgba(55, 43, 226, 0.541);
+            height: 240px;
+            width: 350px;
+            border: 10px solid goldenrod;
+            margin: 40px auto 30px auto; 
+            padding: 10px;
+            outline: 5px dashed greenyellow;
+        }
+        a{
+            border: 9px  solid blue;
+            padding: 10px 5px;
+        }
+        p code{
+            color: black;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box model, vendo exemplos de caixas do tipo: </h1>
+
+    <p>Parágrafos são exemplos de caixas <strong><em>box-level</em></strong>, mas os <a href="#">links</a> são exemplos de caixas <strong><em>inline-level</em></strong> veremos com tudo funciona.</p>
+    
+    <h2>box-level.</h2>
+    <p><code>&lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;div&gt;, &lt;p&gt;, &lt;h1&gt;-&lt;h6&gt;...</code></p>
+
+    <h2>inline-level.</h2>
+    <p><code>&lt;span&gt;, &lt;code&gt;, &lt;strong&gt;, &lt;a&gt;, &lt;input&gt;...</code></p>
+</body>
+</html>

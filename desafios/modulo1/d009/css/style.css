@@ -1,0 +1,12 @@
+body{
+   background-color: black;
+}
+h1{
+   text-align: center;
+   color: white;
+}
+div ,iframe , a, img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}

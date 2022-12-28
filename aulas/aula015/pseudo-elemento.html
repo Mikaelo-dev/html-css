@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: #4734eb;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:visited{
+            color: #18105c;
+        }
+        a:hover{
+            color: #4f3bff;
+            text-decoration: underline;
+        }
+        a:active{
+            color: purple;
+        }
+        a::before{
+            content: ' ->';
+            color: coral;
+        }
+        a::after{
+            content: '<- ';
+            color: coral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li>Quer saber sobre estoicismo ? <a rel="external" target="_blank" href="https://www.youtube.com/@Copini">clique aqui</a> e veja a playlist do copini</li>
+
+        <li>Quer ter conhecimentto profundo e amostratando sua ignorância com fabio akita o fera ? <a rel="external" target="_blank" href="https://www.youtube.com/channel/UCib793mnUOhWymCh2VJKplQ">clique aqui</a></li>
+
+        <li>A <a rel="external" target="_blank" href="https://www.metropoles.com/colunas/pouca-vergonha/voce-se-masturba-muito-conheca-os-riscos-da-pratica-em-excesso">masturbação</a> e suas perdas da prática</li>
+
+        <li>A graça da <a rel="external" target="_blank" href="https://www.eusemfronteiras.com.br/o-lado-bom-de-ficar-sozinho/">solidão</a> e o amor pela própria solitude </li>
+    </ul>
+</body>
+</html>

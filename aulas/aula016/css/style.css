@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(128, 128, 128, 0.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #111;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    width: 700px;
+    margin: auto ;
+}
+header > h1{
+    font-family: inherit;
+    font-size: 2.5em;
+}
+nav > a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: purple;
+}
+nav > a:hover{
+    color:rgb(97, 0, 97);
+    text-decoration: underline;
+}
+main{
+    background-color: #0000001c;
+    padding: 1px 15px 1px 15px;
+    box-shadow: 6px 7px 20px 4px rgba(0,0,0,0.41);
+    border-radius: 10px 20px 15px 10px;
+}
+section > article > h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+}
+section > article > p{
+    text-indent: 10px;
+    text-align: justify;
+}
+footer{
+    background: linear-gradient(to left, rgb(110, 109, 104) 20%, rgb(119, 105, 105) 60%);
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+}
