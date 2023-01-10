@@ -40,6 +40,9 @@ section{
     line-height: 2em;
     font-family: var(--fonte1);
     font-size: 4.5vh;
+}
+section p{
+    padding: 10vh 0 10vh 40px;
 
 }
 section.normal{
