@@ -16,14 +16,14 @@ header{
     text-align: center;
 }
 header h1{
-    padding-top: 40px;
+    padding-top: 50px;
     font-size: 8.5vh;
     font-variant: small-caps;
     font-family: var(--fonte2);
     /* A melhor maneira é com media queries, porém é uma forma de resolver usando o vh */
 }
 header p{
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     font-size: 18px;
 }
 a{
