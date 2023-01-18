@@ -1,0 +1,28 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    margin-bottom: 50px;
+}
+td,th{
+    border: 1px solid black;
+    padding: 5px;
+}
+span{
+    color: rgb(63, 63, 63);
+    font-size: 13px;
+}
+thead{
+    background-color: #EAECF0;
+}
+tfoot .fundofoot {
+    background-color: #EAECF0;
+}
+tbody{
+    background-color: #F8F9FA;
+}
+.total{
+    text-align: center;
+}
