@@ -1,10 +1,15 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgray;
 }
 table{
     border-collapse: collapse;
     width: 500px;
-    margin-bottom: 50px;
+}
+table caption{
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 td,th{
     border: 1px solid black;
@@ -17,12 +22,13 @@ span{
 thead{
     background-color: #EAECF0;
 }
-tfoot .fundofoot {
-    background-color: #EAECF0;
-}
 tbody{
     background-color: #F8F9FA;
 }
+tbody > tr:nth-child(even){
+    background-color: lightgrey;
+}
+
 .total{
     text-align: center;
 }
