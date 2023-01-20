@@ -5,22 +5,32 @@ body{
 table{
     border-collapse: collapse;
     width: 500px;
+    position: relative;
 }
 table caption{
     font-size: 1.6em;
     font-weight: bold;
     margin-bottom: 10px;
 }
+thead{
+    background-color: #555555;
+    color: white;
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: #555555;
+}
+tr:hover {
+    border: 2px solid #000000;
+}
 td,th{
     border: 1px solid black;
     padding: 5px;
 }
 span{
-    color: rgb(63, 63, 63);
+    color: rgb(194, 194, 194);
     font-size: 13px;
-}
-thead{
-    background-color: #EAECF0;
 }
 tbody{
     background-color: #F8F9FA;
@@ -28,7 +38,13 @@ tbody{
 tbody > tr:nth-child(even){
     background-color: lightgrey;
 }
-
+tbody > tr > td:nth-child(n + 3){
+    text-align: center;
+} 
 .total{
     text-align: center;
+}
+p{
+    width: 500px;
+    text-align: justify;
 }
