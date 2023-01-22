@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de células</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: white;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+            margin-left: 10px;
+        }
+        td,th{
+            border: 2px solid black;
+            padding: 5px;
+        }
+        td{
+            text-align: center;
+            font-weight: bold;
+        }
+        h1{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem células</h1>
+    <table>
+            <tr>
+                <td colspan="2">A</td>
+                
+                <td>C</td>
+            </tr>
+            <tr>
+                <td rowspan="3">D</td>
+                <td colspan="2">E</td>
+            </tr>
+            <tr>
+                
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td colspan="2">J</td>
+                
+            </tr>
+    </table>
+</body>
+</html>
