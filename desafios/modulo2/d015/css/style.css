@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 600px;
+}
+thead th{
+    background-color: floralwhite;
+}
+td,th{
+    padding: 15px;
+    border: 1px solid black;
+}
+.medias{
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
