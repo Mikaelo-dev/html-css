@@ -4,7 +4,7 @@ body{
 }
 table{
     border-collapse: collapse;
-    width: 500px;
+    width: 700px;
     position: relative;
 }
 table caption{
@@ -21,9 +21,6 @@ thead > tr > th{
     top: -1px;
     background-color: #555555;
 }
-tr:hover {
-    border: 2px solid #000000;
-}
 td,th{
     border: 1px solid black;
     padding: 5px;
@@ -34,6 +31,9 @@ span{
 }
 tbody{
     background-color: #F8F9FA;
+}
+tr:hover {
+    border: 2px solid #000000;
 }
 tbody > tr:nth-child(even){
     background-color: lightgrey;

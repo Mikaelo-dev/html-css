@@ -13,6 +13,7 @@
         table{
             border-collapse: collapse;
             text-align: center;
+            font-weight: 600;
         }
         caption{
             font-size: 2em;
@@ -22,6 +23,15 @@
         td,th{
             border:1px solid black;
             padding: 10px;
+        }
+        col.colnome{
+            background-color: rgba(0, 0, 0, 0.11);
+        }
+        col.colprof{
+            background-color: rgba(76, 0, 130, 0.356);
+        }
+        col.colgrop{
+            background-color: ghostwhite;
         }
     </style>
 </head>
@@ -36,30 +46,23 @@
                 <th scope="col">Profissão</th>
             </tr>
         </thead>
+        <colgroup>
+            <col class="colnome">
+            <col class="colgrop" span="2">
+            <col class="colprof">
+        </colgroup>
         <tbody>
-            <tr>
-                <td>Mikael Alves</td>
-                <td>Masculino</td>
-                <td>20</td>
-                <td>Desenvolvedor de software</td>
-            </tr>
-            <tr>
-                <td>Renato augusto</td>
-                <td>Masculino</td>
-                <td>30</td>
-                <td>Professor de artes</td>
-            </tr>
-            <tr>
-                <td>Sandro</td>
-                <td>Masculino</td>
-                <td>40</td>
-                <td>Engenheiro civil</td>
-            </tr>
             <tr>
                 <td>Ana maria</td>
                 <td>Feminino</td>
                 <td>27</td>
                 <td>Youtuber</td>
+            </tr>
+            <tr>
+                <td>Mikael Alves</td>
+                <td>Masculino</td>
+                <td>20</td>
+                <td>Desenvolvedor de software</td>
             </tr>
             <tr>
                 <td>Renata silva</td>
@@ -68,10 +71,22 @@
                 <td>Professora de universidade de filosofia</td>
             </tr>
             <tr>
+                <td>Renato augusto</td>
+                <td>Masculino</td>
+                <td>30</td>
+                <td>Professor de artes</td>
+            </tr>
+            <tr>
                 <td>Kailanne costas</td>
                 <td>Feminino</td>
                 <td>23</td>
-                <td>Atoriz Cinematográfica</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Sandro</td>
+                <td>Masculino</td>
+                <td>40</td>
+                <td>Engenheiro civil</td>
             </tr>
         </tbody>
     </table>
