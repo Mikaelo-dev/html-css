@@ -7,7 +7,11 @@
     <title>Testando o uso dos Iframes</title>
     <style>
         *{
-
+            margin: 10px;
+        }
+        iframe{
+            width: 450px;
+            height: 500px;
         }
         body{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,10 +20,26 @@
 </head>
 <body>
     <h1>Iframes</h1>
-    <p>Acessando o site <a target="_blank" rel="external" href="https://lookmovie2.to">lookmovie</a> pra ver filmes com streaming free</p>
+    <p>Acessando o site <a target="_blank" rel="external" href="https://lookmovie2.to">lookmovie</a> pra ver filmes com streaming free total em inglês</p>
     <p>
         Veja o que quiser <strong>agora</strong>!!!
-        <iframe src="https://lookmovie2.to" frameborder="0"></iframe>
+        <iframe src="https://lookmovie2.to" scrolling="auto" width="700" frameborder="0">
+            <a target="_blank" href="https://lookmovie2.to">A caminho</a>
+        </iframe>
+    </p>
+    <p>Acessando o site <a target="_blank" rel="external" href="https://fmovies.to/home">fmovies</a> pra ver filmes/séries com streaming free total em inglês</p>
+    <p>
+        Veja o que quiser <strong>agora</strong>!!!
+        <iframe src="https://fmovies.to/home" scolling="auto" frameborder="0">
+            <a target="_blank" href="https://fmovies.to/home">A caminho</a>
+        </iframe>
+    </p>
+    <p>
+        Olha o site do <strong>google</strong>
+        <iframe src="https://google.com" frameborder="0">
+            <a target="_blank" rel="external" href="https://google.com">aqui</a>
+        </iframe> 
+        não funciona pois tem proteção contra <code>&lt;iframe&gt;</code>
     </p>
 </body>
 </html>
