@@ -4,47 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iframes locais</title>
+    <title>Testando o uso dos Iframes</title>
     <style>
         *{
-            margin: 5px;
+            margin: 10px;
+        }
+        iframe{
+            width: 450px;
+            height: 500px;
         }
         body{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        div{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        iframe{
-            width: 500px;
-            height: 500px;
-            border: 2px solid gray;
-        }
     </style>
 </head>
 <body>
-    <h1>Iframes, o que são ?</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iste neque dolorum iusto eius magni nulla, ipsum alias recusandae veniam voluptatibus! Accusantium adipisci esse inventore aliquid sapiente repudiandae architecto tempore? 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, quam sequi! Reprehenderit labore deserunt velit ipsum. Molestiae exercitationem pariatur voluptatum ab, reprehenderit a, ipsa at aut velit excepturi eveniet laudantium.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt alias animi in ipsum doloremque rerum atque fugit libero nulla quasi temporibus ab, aut illo ipsa aliquid quod non fugiat? Optio?
-    </p>
-    <div>
-        <iframe scrolling="auto" src="../../desafios/modulo2/d012/index.html" frameborder="0">
-            <a href="../../desafios/modulo2/d012/index.html">Aqui</a>
+    <h1>Iframes</h1>
+    <p>Acessando o site <a target="_blank" rel="external" href="https://lookmovie2.to">lookmovie</a> pra ver filmes com streaming free total em inglês</p>
+    <p>
+        Veja o que quiser <strong>agora</strong>!!!
+        <iframe src="https://lookmovie2.to" scrolling="auto" width="700" frameborder="0">
+            <a target="_blank" href="https://lookmovie2.to">A caminho</a>
         </iframe>
-    </div>
-    <p>Deleniti optio suscipit cum enim, recusandae, ipsa vel minus dolorum totam inventore, itaque tenetur temporibus quod possimus voluptas id velit explicabo dolorem accusantium consectetur. Voluptates assumenda unde ut repudiandae qui? 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, quam sequi! Reprehenderit labore deserunt velit ipsum. Molestiae exercitationem pariatur voluptatum ab, reprehenderit a, ipsa at aut velit excepturi eveniet laudantium.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt alias animi in ipsum doloremque rerum atque fugit libero nulla quasi temporibus ab, aut illo ipsa aliquid quod non fugiat? Optio?
     </p>
-    <div>
-        <iframe src="teste.html" scolling="auto" frameborder="0"></iframe>
-    </div>
-    <p>Doloribus odio officia corporis ex error, harum aliquid voluptatum adipisci. Eveniet debitis nobis sapiente magnam ipsam natus accusantium, adipisci rerum, ipsum hic voluptatem similique, soluta numquam. Assumenda laborum repellendus distinctio? 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, quam sequi! Reprehenderit labore deserunt velit ipsum. Molestiae exercitationem pariatur voluptatum ab, reprehenderit a, ipsa at aut velit excepturi eveniet laudantium.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt alias animi in ipsum doloremque rerum atque fugit libero nulla quasi temporibus ab, aut illo ipsa aliquid quod non fugiat? Optio?
+    <p>Acessando o site <a target="_blank" rel="external" href="https://fmovies.to/home">fmovies</a> pra ver filmes/séries com streaming free total em inglês</p>
+    <p>
+        Veja o que quiser <strong>agora</strong>!!!
+        <iframe src="https://fmovies.to/home" scolling="auto" frameborder="0">
+            <a target="_blank" href="https://fmovies.to/home">A caminho</a>
+        </iframe>
+    </p>
+    <p>
+        Olha o site do <strong>google</strong>
+        <iframe src="https://google.com" frameborder="0">
+            <a target="_blank" rel="external" href="https://google.com">aqui</a>
+        </iframe> 
+        não funciona pois tem proteção contra <code>&lt;iframe&gt;</code>
     </p>
 </body>
 </html>
