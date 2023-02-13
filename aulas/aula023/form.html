@@ -8,14 +8,15 @@
 </head>
 <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
     <h1>My first form</h1>
-    <form method="POST" autocomplete="off" action="index.php">
-        <label for="inome">Nome:</label> 
-        <input type="text" name="nome" id="inome" placeholder="João vitor texeira" >
-        <br>
-        <br>
-        <label for="icartao">Senha do cartão:</label> 
-        <input type="text" id="icartao" name="cartao" placeholder="467908659">
-        
+    <form method="post" autocomplete="on" action="index.php">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" placeholder="João vitor texeira" >
+        </p>
+        <p>
+            <label for="icartao">Senha do cartão:</label>
+            <input type="password" id="icartao" name="cartao" placeholder="467908659">
+        </p>
         <input type="submit" value="Enviar">
     </form>
 </body>
