@@ -9,12 +9,12 @@
 <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 40px;">
     <h1>Teste form</h1>
     
-    <form autocomplete="off" action="index.php" method="POST">
+    <form autocomplete="on" action="index.php" method="POST">
         <label for="inome">Nome:</label>
-        <input type="text" name="nome" id="inome" placeholder="João vitor pereira" required>
+        <input type="text" name="nome" id="inome" autocomplete="name" placeholder="Mínimo de 4 letras" required minlength="4" maxlength="15" size="15">
         <br><br>
         <label for="isenha">Senha:</label>
-        <input type="password" name="senha" id="isenha" placeholder="34096" required>
+        <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="Mínimo de 8 dígitos" required minlength="8" maxlength="20" size="15">
         <br><br>
         <input type="submit" value="Enviar">
         <br><br>
