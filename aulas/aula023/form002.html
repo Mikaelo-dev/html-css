@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Teste form</h1>
+    <form action="inde.php" autocomplete="on" method="get">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" placeholder="Primeiro nome." minlength="4" required autocomplete="name">
+        </p>
+        <p>
+            <label for="isenha">Senha: </label>
+            <input type="password" name="senha" id="isenha" placeholder="Senha " minlength="8" required autocomplete="new-password">
+        </p>
+        <p>
+            <label for="imedia">Média: </label>
+            <input type="number" name="media" id="imedia" required step="0.5" min="1" max="10">
+        </p>
+        
+        <p>
+            <label for="idata">Data de nascimento: </label>
+            <input type="date" name="data" id="idata" required autocomplete="bday">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
