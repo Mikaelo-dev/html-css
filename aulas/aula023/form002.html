@@ -7,24 +7,31 @@
     <title>Form</title>
 </head>
 <body>
-    <h1>Teste form</h1>
-    <form action="inde.php" autocomplete="on" method="get">
+    <h1>Prencha o relatorio</h1>
+    <form action="index.php" autocomplete="on" method="get">
         <p>
             <label for="inome">Nome: </label>
-            <input type="text" name="nome" id="inome" placeholder="Primeiro nome." minlength="4" required autocomplete="name">
+            <input type="text" name="nome" id="inome" placeholder="João" minlength="4" required autocomplete="name">
         </p>
         <p>
             <label for="isenha">Senha: </label>
             <input type="password" name="senha" id="isenha" placeholder="Senha " minlength="8" required autocomplete="new-password">
         </p>
         <p>
-            <label for="imedia">Média: </label>
-            <input type="number" name="media" id="imedia" required step="0.5" min="1" max="10">
+            <label for="ivezes">Quantos vezes disse <strong>não</strong>: </label>
+            <input type="number" name="vezes" id="ivezes" size="1" value="5" required min="1" >
         </p>
-        
         <p>
-            <label for="idata">Data de nascimento: </label>
-            <input type="date" name="data" id="idata" required autocomplete="bday">
+            <label for="imes">Período: </label>
+            <input type="month" name="mes" id="imes" required>
+        </p>
+        <p>
+            <label for="itime">Hora de inicio: </label>
+            <input type="time" name="time" id="itime" required>
+
+            <label for="iftime">fim: </label>
+            <input type="time" name="ftime" id="iftime" required>
+            
         </p>
         <p>
             <input type="submit" value="Enviar">
