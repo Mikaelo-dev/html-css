@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Telefone e e-mail</h1>
+    <form action="index.php" autocomplete="on" method="post">
+        <p>
+            <label for="inome">Nome completo:</label>
+            <input type="text" placeholder="João vitor pereira" name="inome" id="inome" required>
+        </p>
+        <p>
+            <!-- Estudar RegEx -->
+            <label for="itel">Número de celular: </label>
+            <input type="tel" pattern="^[0-9]{4}-[0-9]{4}$" placeholder="DD XXXXX-XXXX" name="tel" id="itel" required>
+        </p>
+        <p>
+            <label for="iemail">E-mail</label>
+            <input type="email" placeholder="Seunome@gmail" name="email" id="iemail" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
