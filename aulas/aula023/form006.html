@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, datalist e textarea</title>
+</head>
+<body>
+    <h1>Elementos sem o &lt;input&gt;</h1>
+    <form action="index.php" autocomplete="on" method="post">
+        <fieldset>
+            <legend>Elementos sem o bendito &lt;input&gt;</legend>
+            <p>
+                <label for="iestado">Estado:</label>
+                <select name="estado" id="iestado">
+                    <optgroup label="Região Sudeste">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+                    <optgroup label="Região Sul">
+                        <option value="SC">Santa catarina</option>
+                        <option value="PR">Curitiba</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </optgroup>
+                </select>
+            </p>
+
+
+            <p>
+                <label for="Iprof">Profissão:</label>
+                <input type="text" name="prof" id="iprof" list="lprof">
+                <datalist id="lprof">
+                    <option value="DEV">Desenvolvedor</option>
+                    <option value="PROF">Professor</option>
+                    <option value="CON">Contador</option>
+                </datalist>
+            </p>
+
+            <p>
+                <label for="imens">Mensagem:</label>
+                <br>
+                <textarea name="mens" id="imens" cols="30" rows="15" placeholder="Sua mensagem..."></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
