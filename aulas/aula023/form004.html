@@ -8,11 +8,19 @@
 
 </head>
 <style>
-    
+    legend{
+        color: blue;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    fieldset{
+        border: none;
+    }
+
 </style>
 <body>
     <h1>Confirme pra mim</h1>
-    <form action="index.php" autocomplete="on" method="post">
+    <form action="index.php" autocomplete="on" method="get">
         <fieldset>
             <legend>Sexo</legend>
             <p>
@@ -53,9 +61,7 @@
             </p>
         </fieldset>
         <br>
-        <p>
             <input type="submit" value="Enviar">
-        </p>
     </form>
 </body>
 </html>
