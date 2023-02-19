@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outrto uso do output</title>
+</head>
+<body>
+    <h1>Outro exemplo, de output</h1>
+    <form action="index.php" autocomplete="on" method="post">
+        <p>
+            <label for="ival">Número: </label>
+            <input type="range" name="val" id="ival" min="1" max="50" oninput="inum.innerHTML = Number(ival.value)">
+        </p>
+        <p>
+            <label for="inum">Valor:</label>
+            <output id="inum">0</output>
+        </p>
+    </form>
+</body>
+</html>
