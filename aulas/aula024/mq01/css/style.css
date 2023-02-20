@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+}
+nav li{
+    display: inline;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
