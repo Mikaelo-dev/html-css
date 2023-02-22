@@ -1,2 +1,20 @@
 @charset "UTF-8";
 /* Todas as orientações */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#233EFF;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+h1{
+    color: white;
+    font-size: 1.8em;
+    padding: 5px;
+}
