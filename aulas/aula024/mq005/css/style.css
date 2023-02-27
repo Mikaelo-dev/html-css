@@ -15,8 +15,18 @@ h1{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-nav{
+span#burger{
+    background-color: rgb(20,20, 20);
     display: block;
+    text-align: center;
+    padding: 7px;
+    cursor: pointer;
+}
+span#burger:hover{
+    background-color: #0d0d0d;
+}
+nav{
+    display: none;
 }
 ul li {
     text-align: center;
@@ -47,3 +57,5 @@ main h1{
 main p {
     padding: 5px;
 }
+
+
